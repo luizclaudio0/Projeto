@@ -1,0 +1,43 @@
+#MyModal {
+	display:none;
+	overflow: auto;
+	position: fixed;
+	background-color: rgba(0,0,0,0.4);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding-top:15%;
+}
+#modal-content {
+	width:60%;
+	text-align:center;
+	background-color:#343a40;
+	color:white;
+	margin: auto;
+	padding: 20px;
+	border: 2px solid black;
+}
+#form{
+	padding-top:5%;
+}
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.font-title{
+	font-size:20px;
+	font-weight:bold;
+}
+.font-title:hover{
+	cursor:pointer;
+}
